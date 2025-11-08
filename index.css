@@ -1,0 +1,60 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.main-title {
+    border-bottom: 2px solid #689982;
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.1em;
+}
+
+.assignments-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #689982;
+    border-radius: 1em;
+    padding: 1.2em;
+    background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+    margin: 2em auto;
+}
+
+.assignments-box h1 {
+    border-bottom: 2px solid #689982;
+    display: inline-block;
+    padding-bottom: 0.1em;
+    margin-bottom: 1em;
+    color: black;
+}
+
+.assignment-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 2em;
+    padding: 2em;
+    justify-content: center;
+}
+
+.assignment-buttons button {
+    font-size: 1.2em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 1em;
+    cursor: pointer;
+    background-color: #689982;
+    color: white;
+    max-width: 200px;
+}
+
+.assignment-buttons button:hover {
+    background-color:#3D594C;
+}

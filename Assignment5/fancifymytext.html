@@ -1,0 +1,36 @@
+<!-- Assignment 5 -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<script src="fancifymytext.js"></script>
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+		<fieldset>
+			<legend>Text</legend>
+			<textarea rows="4" cols="30" id="textArea"></textarea>
+		</fieldset>
+
+		<fieldset>
+			<legend>Fancify</legend>
+			<button onclick="handleClickBigger()">Bigger!</button>
+			<button onclick="handleClickMoo()">Moo</button>
+			<label>
+				<input type="radio" id="fancyRadio" name="style" value="FancyShmancy" onchange="handleChangeStyle()">
+				FancyShmancy
+			</label>
+			<label>
+				<input type="radio" id="boringRadio" name="style" value="BoringBetty" onchange="handleChangeStyle()">
+				BoringBetty
+			</label>
+		</fieldset>
+		
+
+		<!-- Your UI controls go here -->
+		
+	</body>
+</html>
