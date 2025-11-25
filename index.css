@@ -1,5 +1,7 @@
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    flex: auto;
+    text-align: center;
 }
 
 .main-title {
@@ -11,6 +13,15 @@ body {
     padding-bottom: 0.1em;
 }
 
+.sub-p {
+    text-align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.7em;
+    margin-bottom: 2em;
+    line-height: 1.5em;
+}
 .assignments-box {
     display: flex;
     flex-direction: column;
@@ -42,7 +53,8 @@ body {
 }
 
 .assignment-buttons button {
-    font-size: 1.2em;
+    font-size: clamp(0.8em, 2vw, 1.2em);
+    justify-self: center;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 20px;
@@ -52,7 +64,9 @@ body {
     cursor: pointer;
     background-color: #689982;
     color: white;
-    max-width: 200px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    transition: background-color 0.3s ease;
 }
 
 .assignment-buttons button:hover {
