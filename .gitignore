@@ -1,0 +1,3 @@
+# ignore assignment 8 node modules as it was give a build error on github
+Assignment8/node_modules/
+
