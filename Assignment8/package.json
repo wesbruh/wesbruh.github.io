@@ -1,0 +1,16 @@
+{
+  "name": "assignment8",
+  "version": "1.0.0",
+  "description": "assignment8",
+  "license": "ISC",
+  "author": "westley v",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "run dev"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}

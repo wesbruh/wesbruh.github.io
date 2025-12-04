@@ -12,5 +12,5 @@ ___
 
 2) The makeRequest() function chains promises. If we were to refactor the code using async and await syntax, what would be the advantages/disadvantages over promising chaining?
 
-3) Because this exercise parses the array of image paths, res.json(generateImagePaths(), what would happen if we forgot to call .json() on the response object before passing it to displayPictures(), and how does the browser handle the conversion from the raw HTTP response to a JavaScript object?
+3) Because this exercise parses the array of image paths, res.json(generateImagePaths()), what would happen if we forgot to call .json() on the response object before passing it to displayPictures(), and how does the browser handle the conversion from the raw HTTP response to a JavaScript object?
 

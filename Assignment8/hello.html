@@ -1,0 +1,48 @@
+
+<!-- THIS HTML IS SPECIFICALLY FOR THE GITHUB PAGES -->
+<!-- The app.js file has been submitted on Canvas -->
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 8</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <h1>Node.js API Endpoints for Assignment 8</h1>
+    <h2>Because this assignment requires running the server locally, 
+        I have only provided documentation of how it works below.
+        <br>
+    </h2>
+    <p> The app.js file has been submitted on Canvas.
+        Other files can be found in the GitHub repository. </p>
+
+    
+    <section>
+        <h2><br>Initial Set up</h2>
+        <h3>GET /hello</h3>
+        <code>curl http://localhost:8000/hello</code>
+        <p>Returns: "Hello World!"</p>
+        
+    </section>
+
+    <section>
+        <h2>Exercise 1</h2>
+        <h3>GET /math/circle/:r</h3>
+        <p>Takes the radius as a URL parameter and calculates circle area and circumference and returns solution as JSON</p>
+        <code>curl http://localhost:8000/math/circle/5</code>
+        <p>Returns: <code>{"area": 78.54, "circumference": 31.42}</code> on the page.</p>
+    </section>
+
+    <section>
+        <h2>Exercise 2</h2>
+        <h3>GET /hello/name</h3>
+        <p>Takes query parameters in the URL (first and last)</p>
+        <code>curl http://localhost:8000/hello/name?first=John&last=Doe</code>
+        <p>Returns: "Hello John Doe" on the page.</p>
+    </section>
+  </body>
+
+</html>
