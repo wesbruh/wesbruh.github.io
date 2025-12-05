@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>W. Valentin CSC 193A Assignments</title>
     <link rel="stylesheet" href="index.css" />
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
     <h1 class="main-title">Entry point to access Westley's CSC 193A Assignments through Github pages.</h1>
@@ -28,11 +28,60 @@
         <button onclick="window.open('Assignment6/encrypt-it.html', '_blank')">Assignment 6</button>
         <button onclick="window.open('Assignment7/ajaxpets.html', '_blank')">Assignment 7</button>
         <button onclick="window.open('Assignment8/hello.html', '_blank')">Assignment 8</button>
-        <button onclick="window.open()">Assignment 9</button>
-        <button onclick="window.open()">Assignment 10</button>
-        <button onclick="window.open()">Final Project</button>
+        <button onclick="handleClickAssignment()">Assignment 9</button>
+        <button onclick="handleClickAssignment()">Assignment 10</button>
+        <button onclick="clickFProj()">Final Project</button>
       </div>
     </div>
+    <div id="final-project-content" class="hidden">
+      <h2>Final Project Details</h2>
+      <p>
+        <strong>Interview format:</strong> In-Person on December 12, 2025
+        <br>
+        <strong>Interviewee name:</strong> Buck Kimbriel
+        <br>
+        <strong>Company name:</strong> Sketchy
+        <br>
+        <strong>Position Title:</strong> Senior Software Engineer, Frontend
+      </p>
+      <p> 
+        <strong>Here are the questions I asked during the interview:</strong> 
+        <br>
+        1) Can you give a short description of your career journey? 
+        How did you get into your current role, and what experiences were most valuable in preparing you for it?
+        What does a typical day or week look like in your position?
+        <br>
+        2) What did you think about the interview process for your current position? 
+        What were the key moments and what general ideas do you believe they tested you on? 
+        Was there anything that caught you off guard during the interview process?
+        <br>
+        3) Has this job changed what you want professionally in any noticeable way?
+        <br>
+        4) Personally, I deal with some of my own challenges in computer science. 
+        What do you wish you had known when you were starting out in tech? 
+        What advice would you give to students, or anyone else, preparing to enter the field?
+        <br>
+        5) Lastly, are there things you prioritize differently in your life now than you did when you first started in tech?
+      </p>
+      <p>
+        <strong>Reflection:</strong> 
+        <br>
+        My interview with Buck revealed important insights about building a sustainable career in frontend development. 
+        Buck's career journey, from building WordPress templates in high school to navigating both chaotic startups and 
+        larger corporations, demonstrated that early struggles and mistakes can be the most valuable learning experiences, 
+        even when they're uncomfortable. His emphasis on learning systems design, data structures, and algorithms alongside 
+        feature development was a key takeaway and mentioned that he regretted avoiding these fundamentals for too long in 
+        favor of moving fast. Buck gave me some advice to “find your why” and it resonated with me. He explained that his 
+        intrinsic motivation to build things from zero to one sustains him through inevitable frustrations, and that having 
+        this anchor is crucial in tech's constantly evolving landscape. I also learned that the interview processes for jobs 
+        vary widely (from his experience), from whiteboard pseudocode algorithms to practical feature-building exercises, and 
+        that his preference for smaller teams stems from valuing decision-making freedom over the corporate layers. This 
+        conversation connects directly to my professional development by reinforcing that I should balance immediate web skills 
+        with foundational computer science knowledge, identify what genuinely fuels my passion in tech, and prioritize sustainable 
+        work-life balance early rather than falling into the trap of feeling perpetually behind in the tech world.
+      </p>
+    </div>
+
   </body>
 
 </html>
